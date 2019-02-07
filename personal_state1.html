@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- 引入 Bootstrap -->
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Nanum+Gothic"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Staatliches|ZCOOL+KuaiLe"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+        <script
+            src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>personal state</title>
+        <!--<div class="row" style="background-color: rgb(5, 2, 2);height: 100px"></div>
+        <div class="row" style="background-color: rgb(82, 31, 31); height:100px "></div>
+        <div class="row" style="background-color: rgb(168, 91, 91);height: 100px"></div>
+        <div class="row" style="background-color: rgb(218, 164, 164);height:100px">
+        </div> <div class="row" style="background-color: rgb(247, 219,219);height:
+        100px"></div> -->
+        <style>
+            body {
+                background-color: white;
+                font-family: 'Nanum Gothic', sans-serif;
+            }
+        </style>
+
+    </head style="background-color:rgb(82, 31, 31)">
+    <body>
+        <div
+            class="container-fluid"
+            style="height:1000px;border-left:5px black solid;border-right:5px black solid">
+            <div class="row" style=" height: 80px; background-color:rgb(82, 31, 31) ">
+                <div class="col-lg-2">
+                    <h1
+                        style="margin-left: 10px; color:rgb(218, 164, 164); font-family: 'Staatliches', cursive; font-size:45px">
+                        - ACADELLA -
+                    </h1>
+                </div>
+                <div class="col-lg-7" style=" padding:0px">
+                    <p style="color:rgb(218, 164, 164); margin-top:45px; font-size:15px">
+                        A program that manage your program.
+                    </p>
+                </div>
+                <div class="col-lg-3" style="margin-top:20px">
+                    <div class="dropdown">
+                        <button
+                            type="button"
+                            class="btn dropdown-toggle"
+                            id="Uname"
+                            data-toggle="dropdown"
+                            style="color:rgb(247, 219,219); background-color: rgb(82, 31, 31); font-size:30px;width:250px ;text-align: right; margin-left: 50px">Mary
+                            <span class="caret" style="color: rgb(218, 164, 164)"></span>
+                        </button>
+                        <ul
+                            class="dropdown-menu"
+                            role="menu"
+                            aria-labelledby="Uname"
+                            style="height: 200px; width: 300px;margin-left: 50px;background-color: rgb(247, 219,219);padding:20px">
+                            <li role="presentation" id="Ucontact">
+                                contact - 123456789@gmail.com
+                            </li>
+                            <li role="presentation" id="Uposition">
+                                position - backend
+                            </li>
+                            <li role="presentation" id="Utool">
+                                tool - java, c#
+                            </li>
+                            <li role="presentation" id="Udes">
+                                description -
+                                <br/>
+                                practice makes perfect.
+                            </li>
+                            <li
+                                role="presentation"
+                                class="divider"
+                                style="background-color:rgb(82, 31, 31)"></li>
+                            <li role="presentation" style="background-color:rgb(218, 164, 164)">
+                                <a href="#">Change your details</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="height: 700px; margin: 3px; border:3px solid black">
+                    <div
+                        class="col-lg-4"
+                        style=" margin-left:10px;margin-top:10px;background-color:rgb(247, 219, 219) ">
+                        <h3
+                            style="color:rgb(82, 31, 31) ;border-bottom: 3px solid black; margin-left: 20px; margin-top: 20px;background-color: rgb(218, 164, 164)">
+                            Previous Programs
+                        </h3>
+                        <table
+                            style="width:100%; margin-left:10px; margin-top:20px;color:rgb(82, 31, 31)">
+                            <tr>
+                                <th>Start Date</th>
+                                <th>Program</th>
+                                <th>End Date</th>
+                            </tr>
+                            <tr>
+                                <td id="Pst">2018-7-11</td>
+                                <td>
+                                    <a href="#" id="Pname" style="color:rgb(82, 31, 31)">
+                                        <u>
+                                            xxx</u>
+                                    </a>
+                                </td>
+                                <td id="Uet">2018-11-24</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div
+                        class="col-lg-4"
+                        style="margin-left:10px;margin-top:10px;background-color: rgb(247, 219, 219) ">
+                        <h3
+                            style="color:rgb(82, 31, 31) ;border-bottom: 3px solid black; margin-left: 20px; margin-top: 20px; background-color: rgb(218, 164, 164) ">
+                            On Going Programs
+                        </h3>
+                        <table
+                            style="width:100%; margin-left:10px; margin-top:20px;color:rgb(82, 31, 31)">
+                            <tr>
+                                <th>Start Date</th>
+                                <th>Program</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td id="Pst">2019-1-24</td>
+                                <td>
+                                    <a href="#" id="Pname" style="color:rgb(82, 31, 31)">
+                                        <u>Acadella</u>
+                                    </a>
+                                </td>
+                                <td id="Pstate">start stage</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="#">
+                            <button
+                                id="CreatP"
+                                class="btn"
+                                onclick=""
+                                style="background-color:rgb(82, 31, 31);width: 200px;margin-top: 20px ;height:80px">
+                                <p class="words" style="color:rgb(218, 164, 164); margin:auto; font-size:20px">
+                                    start a<br/>
+                                    new program
+                                </p>
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+
+        </body>
+    </html>
